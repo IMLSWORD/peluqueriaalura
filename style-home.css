@@ -1,0 +1,79 @@
+
+.titulo-principal{
+    padding-left: 30px;
+    display: inline-block;
+
+}
+
+.PRODUCTOS2{
+    color: #000000;
+    position: relative;
+    display: inline-block;
+    margin-left: 80%;
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: none;
+   
+}
+
+
+
+.PRODUCTOS2:hover{
+    color: #c78c19;
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+.PRODUCTOS2:active{
+    color: forestgreen;
+}
+
+#banner{
+    width: 100%;
+}
+
+.principal{
+    background: #cccccc;
+    padding: 20px;
+}
+
+.titulo-centralizado{
+    text-align: center;
+}
+
+
+p{
+    text-align: center;
+}
+
+#mision{
+   font-size: 20px;
+}
+
+em strong{
+    color: red;
+}
+
+.diferenciales{
+    background-color: #ffffff;
+    padding: 30px;
+}
+
+
+.items{
+    font-style: italic;
+    height: 20px;
+
+}
+
+ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+.imgdiferenciales{
+    width: 50%;
+}
+

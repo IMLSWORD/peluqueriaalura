@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Contacto - barberiaalura</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <div class="caja">
+                <h1><img src="img/pt1/logo.png" alt="Logo de la barberia alura "></h1>
+                    <nav>
+                        <ul class="navegacion">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="productos.html">Productos</a></li>
+                        <li><a href="comtacto.html">Contacto</a></li> 
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <form>
+                <label for="nombreapellido">Nombre y apellido</label>
+                <input type="text" id="nombreapellido" class="input-padron" required>
+        
+                <label for="correoelectronico">Correo electronico</label>
+                <input type="email" id="correoelectronico" class="input-padron" required placeholder="email@dominio.com">
+        
+                <label for="telefono">Telefono</label>
+                <input type="tel" id="telefono" class="input-padron" required placeholder="(XX) XXXX XXXX">
+
+                <label for="mensaje">Mensaje</label>
+                <textarea cols="90" rows="10" id="mensaje"></textarea>
+
+                <fieldset>
+                    <legend>¿Como le gustaria que lo contactemos?</legend>
+
+                    <label for="radio-email"><input type="radio" name="Contacto" value="email" id="radio-email">Email</label>
+            
+                    <label for="radio-telefono"><input type="radio" name="Contacto" value="telefono" id="radio-telefono">telefono</label>
+                
+                    <label for="radio-whatsapp"><input type="radio" name="Contacto" value="whatsapp" id="radio-whatsapp" checked>whatsApp</label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>¿En que horario prefiere ser atendido?</legend>
+                    <select>
+                        <option>Mañana</option>
+                        <option>Tarde</option>
+                        <option>Noche</option>
+                    </select>
+                </fieldset>
+    
+                <label class="checkbox"><input type="checkbox" checked> Le gustaria recibir novedades de la barberia alura ?</label>
+                <input type="submit" value="Enviar formulario" class="Enviar">
+            </form>
+
+            <table>
+                <P class="parrafo-tabla">Nuestro horario:</P>
+
+                <thead>
+                    <tr>
+                        <th>Dia</th>
+                        <th>Horario</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Lunes</td>
+                        <td>08h - 20h</td>
+                    </tr>
+                    <tr>
+                        <td>Miercoles</td>
+                        <td>08h - 20h</td>
+                    </tr>
+                    <tr>
+                        <td>Viernes</td>
+                        <td>08h - 20h</td>
+                    </tr>
+                </tbody>
+            </table>
+            
+        </main>
+        
+        <footer>
+            <img src="img/pt1/logo-blanco.png" alt="Logo de la barberia alura " >
+            <p class="copyright">&copy copyright barberia alura - 2052</p>
+            <a href="https://github.com/IMLSWORD"><img class="imagen-github" src="img/pt1/GitHub.png"></a>
+            <p class="github-texto">Github</p>
+        </footer>
+    </body>
+</html>

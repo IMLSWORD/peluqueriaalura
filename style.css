@@ -1,0 +1,374 @@
+body{
+    font-family: "Montserrat", sans-serif;
+}
+header{
+    background-color: #cccccc;
+    padding: 20px 0px;
+}
+
+.caja{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0px;
+}
+
+nav li{
+ display: inline;   
+ margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+   color: black;
+   font-weight: bold;
+   font-size: 22px;
+   text-decoration: none;
+
+}
+
+nav a:hover{
+    color: #c78c19;
+    text-decoration: underline;
+}
+
+.productos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.productos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+.productos li:hover{
+    border-color: #c78c19;
+}
+
+.productos li:active{
+    border-color: #088c19;
+}
+
+.productos h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.productos li:hover h2{
+    font-size: 33px;
+    
+}
+
+.producto-descripcion{
+    font-size: 18px;
+}
+
+.producto-precio{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+footer{
+    text-align: center;
+    background: url(img/pt1/bg.jpg);
+    padding: 40px;
+    
+}
+  
+
+.copyright{
+    color: #ffffff;
+    font-size: 13px;
+}
+
+.imagen-github{
+    width: 100px;
+    height: 80px;;
+    filter: grayscale(100%);
+    transition: 0.90s;
+    margin-top: 20px;
+   
+}
+ 
+.imagen-github:hover{
+    filter: none;
+    transform: scale(1.2);
+    
+}
+
+.github-texto{
+    color: #cccccc;
+    text-align: center;
+}
+
+
+form{
+    margin: 40px 40px;
+    padding-left: 10px;
+}
+
+form label, form legend {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padron{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox{
+    margin: 40px 0;
+}
+
+.Enviar{
+    width: 40%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+    transition:  1s all;
+    cursor: pointer;
+}
+
+.Enviar:hover{
+    transform: scale(0.99); /* Igual que: scaleX(2) scaleY(0.5) */
+    transform-origin: center;
+    background-color: rgb(214, 138, 39);
+
+}
+
+
+.Enviar:active{
+    background-color: #088c19;
+}
+
+
+
+table{
+    margin: 40px 40px;
+}
+
+.parrafo-tabla{
+    margin: 20px 0 0 40px;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+thead{
+    background: #555555;
+    color: white;
+    font-weight: bold;
+
+}
+
+td, th{
+    border: 1px solid #000000; 
+    padding: 8px 15px;
+    transition: 1s;
+
+}
+
+tr:hover{
+    transform: scale(1.20);
+    transform: translate(10px);
+    color: #c78c19;
+    font-size: 2em;
+    margin: 0 auto;
+}
+
+
+/*css para home*/
+
+.banner{
+    width: 100%;
+}
+
+.principal{
+    padding: 3em 0;
+    background: #fefefe;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.titulo-principal{
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+}
+
+.principal p {
+    margin:  0 0 1em;
+}
+
+.principal strong{
+    font-weight: bold;
+
+}
+
+.principal em {
+    font-style: italic;
+}
+
+
+.utensilios{
+    width: 120px;
+    float: left;
+    margin: 0 20px 20px 0;
+    
+}
+
+.mapa{
+    padding: 3em 0;
+    background: linear-gradient(#fefefe, #888888);
+}
+
+.mapa-tamaño{
+    border-radius: 20px;
+}
+
+.mapa p{
+    margin: 0 0 2em ;
+    text-align: center;
+}
+.mapa-contenido{
+    width: 940px;
+    margin: 0 auto;
+}
+
+.diferenciales{
+    padding: 3em 0;
+    background: #888888;
+
+}
+
+.contenido-difereniacles{
+    width: 640px;
+    margin: 0 auto;
+
+}
+
+.lista-diferenciales{
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.items{
+    line-height: 1.5;
+}
+
+.items:first-child{
+    font-weight: bold;
+}
+
+.items::before{
+    content: "★";
+}
+
+.imagen-difereniacles{
+    width: 60%; 
+    transition: 400ms;
+    box-shadow: 10px 10px 30px 15px #000000;
+}
+
+.imagen-difereniacles:hover{
+    filter: blur(2px);
+    transform: translateX(10px);
+    box-shadow: none;
+}
+
+.video{
+    width: 560px;
+    margin: 1em auto;
+
+}
+
+@media screen and (max-width:480px ){
+    h1{
+        text-align: center;
+    }
+
+    nav{
+        position: static;
+    }
+
+    .caja, .principal, .mapa-contenido, .contenido-difereniacles, .video{
+        width: auto;
+        margin: 20px;
+    }
+
+    .lista-diferenciales{
+        margin-bottom: 50px;
+    }
+
+ 
+    .lista-diferenciales, .imagen-difereniacles{
+        width: 100%;
+    }
+
+    .imagen-difereniacles{
+        box-shadow: 10px 10px 15px;
+    }
+
+    .video{
+        margin-top: 50;
+    }
+}
+
+
+@media screen and (max-width:939px ){
+    h1{
+        text-align: center;
+    }
+
+    nav{
+        position: static;
+    }
+
+    .caja, .principal, .mapa-contenido, .contenido-difereniacles, .video{
+        width: auto;
+        margin: 20px;
+    }
+
+    .lista-diferenciales{
+        margin-bottom: 50px;
+    }
+
+ 
+    .lista-diferenciales, .imagen-difereniacles{
+        width: 100%;
+    }
+
+    .imagen-difereniacles{
+        box-shadow: 10px 10px 15px;
+    }
+
+    .video{
+        margin-top: 50;
+    }
+}
+
